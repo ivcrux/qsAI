@@ -11,7 +11,6 @@ import qslogic as rwords
 import qsear as ee
 import qsbrain as b
 
-
 def greet():
     b.greet_user()
     #cm.speak("Tell me how may I help you")
