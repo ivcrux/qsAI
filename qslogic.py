@@ -1,9 +1,9 @@
 #this is to replace rwords package
 import qsbrain as b
-import qsmouth as m
+import qcore as m
 import wikipedia
 import webbrowser
-import qslog
+#import qslog
 import random as rd
 
 greetings= ['hello','good morning', 'hi'   ,  'good afternoon', 'whats up' , 'good evening']
@@ -35,7 +35,7 @@ otherO=['can we chat', 'lets chat','can you talk', 'let\'s chat']
 # for word cross check
 def wordbank(q):
 	if q[0] in otherO:
-		#m this should direct to chattrbot but left or he next version for everyone to run this version with any python vrsion they have
+		#m.speak('its a greetings')
 		m.speak('this will be nice, it will create a learning moment for me')
 		#cbt
 	elif q[0] in greetings:

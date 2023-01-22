@@ -5,5 +5,5 @@ speechrecognition
 pyaudio
 chatterbot version 1.0.4
 pywhatkit
-
+python 3.7.9
 pytz
